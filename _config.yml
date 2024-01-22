@@ -17,12 +17,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title: Μαρίνα Παπαδοπούλου
-email: st.charitak@gmail.com #this is also the email contact forms will go to
+email: marinapapapsy@gmail.com #this is also the email contact forms will go to
 description: ""
-author: Stavros Charitakis
-# logo: #optional, defaults to site title
-#   path: assets\img\logo.png
-#   height: 52 #height in px, defaults to 52px
+author: Marina Papadopoulou
+logo: #optional, defaults to site title
+  path: assets\img\logo_2.png
+  height: 52 #height in px, defaults to 52px
 
 locale: "gr" # See available languages in _data/sitetext.yml
 privacy: false # Privacy Policy
@@ -36,4 +36,4 @@ collections:
 markdown: kramdown
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-formspree_form_path: "f/mayrnzdj"
+formspree_form_path: "f/mbjndley"

@@ -14,7 +14,7 @@ gr: &DEFAULT_GR
     - title: "ΑΡΧΙΚΗ"
       section: page-top
     - title: "ΣΧΕΤΙΚΑ ΜΕ ΕΜΕΝΑ"
-      section: about
+      section: timeline
     - title: "ΥΠΗΡΕΣΙΕΣ"
       section: services
     - title: "ΕΠΙΚΟΙΝΩΝΙΑ"
