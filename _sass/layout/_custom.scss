@@ -30,3 +30,125 @@ section#contact {
   padding: 10px;
   border-radius: 2px;
 }
+
+.service_card .text-palete {
+  color: #b55e77;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #bfdbd9;
+}
+
+#mainNav {
+  background-color: white;
+}
+
+header.masthead {
+  background-position: center right;
+  background-size: contain;
+  background-color: #85394d;
+}
+
+header.masthead {
+  position: relative;
+}
+
+.header-sub {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  background-color: #fff8f4;
+  color: black;
+  right: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(25 25 25 / 30%);
+}
+
+.header-sub h4 {
+  font-weight: 200;
+  font-style: italic;
+  text-align: left;
+}
+
+@media (min-width: 740px) and (max-width: 890px) {
+  .header-sub h4 {
+    font-size: 0.6em;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 739px) {
+  .header-sub {
+    padding: 10px;
+    right: auto;
+    width: 325px;
+  }
+  .header-sub h4 {
+    font-size: 0.6em;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 539px) {
+  .header-sub {
+    padding: 5px;
+    right: auto;
+    width: 200px;
+  }
+  .header-sub h4 {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 399px) {
+  header.masthead {
+    background-position: -100px 100%;
+  }
+  .header-sub {
+    display: none;
+  }
+}
+
+.extended_about {
+  padding-top: 0;
+  padding-bottom: 0;
+  .row {
+    flex-flow: row;
+  }
+  .container {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  img {
+    width: 30%;
+    min-width: 290px;
+    margin-right: 10px !important;
+    max-height: 890px;
+  }
+  .large {
+    flex: 1;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 580px) {
+  .extended_about .container {
+    margin-left: auto;
+    padding-left: 15px;
+  }
+  .extended_about .container .row {
+    flex-flow: column;
+  }
+  .extended_about img {
+    margin-right: auto !important;
+    width: 50%;
+  }
+  .extended_about .large {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}

@@ -21,8 +21,8 @@ email: marinapapapsy@gmail.com #this is also the email contact forms will go to
 description: ""
 author: Marina Papadopoulou
 logo: #optional, defaults to site title
-  path: assets\img\logo_2.png
-  height: 52 #height in px, defaults to 52px
+  path: assets\img\logo.svg
+  width: 152 #height in px, defaults to 52px
 
 locale: "gr" # See available languages in _data/sitetext.yml
 privacy: false # Privacy Policy

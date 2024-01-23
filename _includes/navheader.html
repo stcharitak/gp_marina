@@ -18,11 +18,10 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      Menu
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
+      <ul class="navbar-nav text-uppercase">
         {% if site.locale and site.locale != "" and site.locale != nil %} {% for
         link in site.data.navigation[site.locale].nav %}
         <li class="nav-item">
@@ -63,6 +62,12 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <header class="masthead">
   <div class="container">
+    <div class="header-sub">
+      <h4>
+        Καλως ήρθες! <br />Έλα να ανακαλύψουμε το θεραπευτικό μονοπάτι της
+        αλλαγής
+      </h4>
+    </div>
     <div class="intro-text">
       {%- if site.data.sitetext[site.locale].header.title -%}
       <div class="intro-lead-in">
